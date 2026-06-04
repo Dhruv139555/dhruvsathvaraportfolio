@@ -1,73 +1,65 @@
-# React + TypeScript + Vite
+# Dhruv Sathvara — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cinematic, dark-themed personal portfolio website for **Dhruv Sathvara**, an Artificial Intelligence student and aspiring data scientist based in Ahmedabad, India. Built with React, TypeScript, Vite, and Tailwind CSS, and deployed on Netlify.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[dhruvsathvaraportfolio.netlify.app](https://dhruvsathvaraportfolio.netlify.app)
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio showcases Dhruv's background in AI, Machine Learning, and Data Science through an immersive, scroll-driven experience. Key highlights include:
 
-## Expanding the ESLint configuration
+- **Cinematic hero animation** — a frame-by-frame animated canvas intro
+- **Interactive Model Arena** — a live simulation widget comparing ML classifiers (Random Forest, SVM, Gradient Boosting, Logistic Regression) with decision boundary visualizations
+- **Professional timeline** — internships at SkillOrbit and Cognifyz Technologies
+- **Education history** — B.Tech. Lateral AI from Parul University and a Diploma in IT from Dalia Institute
+- **Projects** — Employee Attrition Analytics platform (EMS) and Restaurant Rating Prediction system
+- **Publications** — ISJEM journal paper on EMS-DS browser-native data science workflow engine
+- **Certifications** — Cisco Data Analytics Essentials, Google AI for K12 Educators, NPTEL IoT
+- **Contact form** — reach-out section with email and social links
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Layer | Technology |
+|---|---|
+| Framework | React 18 + TypeScript |
+| Build tool | Vite |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion, GSAP + ScrollTrigger |
+| Icons | Lucide React |
+| Hosting | Netlify |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+  components/
+    CinematicCanvas.tsx   # Animated hero canvas with frame sequences
+    PortfolioSections.tsx # All page sections (About, Experience, Projects, etc.)
+    SmoothScroll.tsx      # Smooth scrolling wrapper
+  App.tsx
+  main.tsx
+public/
+  frames/                 # JPEG frame sequence for hero animation
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Local Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
+
+The dev server starts at `http://localhost:5173`.
+
+## Deployment
+
+This site is deployed automatically via Netlify on every push to `main`. No manual build step is required.
+
+## Contact
+
+- Email: dhruvsathawara85@gmail.com
+- LinkedIn: [dhruv-sathvara-64461b352](https://www.linkedin.com/in/dhruv-sathvara-64461b352/)
+- GitHub: [Dhruv139555](https://github.com/Dhruv139555)
+- Happenstance: [Dhruvsathvara](https://happenstance.ai/u/Dhruvsathvara)
