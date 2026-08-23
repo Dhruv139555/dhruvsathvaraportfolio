@@ -1021,13 +1021,23 @@ export const PortfolioSections: React.FC = () => {
 
                 <div className="flex flex-wrap gap-4 pt-2">
                   <a 
-                    href="https://lnkd.in/dUccyW_x" 
+                    href="https://dhruva-os.vercel.app/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="inline-flex items-center space-x-2 px-5 py-3 rounded-xl bg-luxury-gold hover:bg-white text-black text-xs uppercase tracking-wider font-semibold transition-all duration-300 shadow-xl group font-sans"
                   >
                     <Globe className="w-4 h-4" />
-                    <span>Try Hands-Free Live Demo</span>
+                    <span>Launch Dhruva OS (Live App)</span>
+                    <ArrowUpRight className="w-4 h-4 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
+                  </a>
+                  <a 
+                    href="https://lnkd.in/dUccyW_x" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center space-x-2 px-5 py-3 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-neutral-300 hover:text-white border border-white/10 text-xs uppercase tracking-wider font-semibold transition-all duration-300 group font-sans"
+                  >
+                    <CustomLinkedin className="w-4 h-4 text-luxury-gold" />
+                    <span>Architecture Deep Dive</span>
                     <ArrowUpRight className="w-4 h-4 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
                   </a>
                   <a 
@@ -1059,11 +1069,17 @@ export const PortfolioSections: React.FC = () => {
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
+                    <a 
+                      href="https://dhruva-os.vercel.app/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 px-2.5 py-0.5 rounded bg-luxury-gold/20 hover:bg-luxury-gold text-luxury-gold hover:text-black border border-luxury-gold/40 text-[10px] font-mono tracking-wider transition-all duration-300"
+                    >
+                      <span>LIVE APP</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
                     <span className="text-[10px] text-cyan-400 font-mono bg-cyan-950/50 border border-cyan-800/50 px-2 py-0.5 rounded">
-                      VOICE ENGINE: ONLINE
-                    </span>
-                    <span className="text-[10px] text-neutral-400 font-mono">
-                      v2.4
+                      ONLINE
                     </span>
                   </div>
                 </div>
