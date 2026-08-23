@@ -1027,17 +1027,7 @@ export const PortfolioSections: React.FC = () => {
                     className="inline-flex items-center space-x-2 px-5 py-3 rounded-xl bg-luxury-gold hover:bg-white text-black text-xs uppercase tracking-wider font-semibold transition-all duration-300 shadow-xl group font-sans"
                   >
                     <Globe className="w-4 h-4" />
-                    <span>Launch Dhruva OS (Live App)</span>
-                    <ArrowUpRight className="w-4 h-4 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
-                  </a>
-                  <a 
-                    href="https://lnkd.in/dUccyW_x" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="inline-flex items-center space-x-2 px-5 py-3 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-neutral-300 hover:text-white border border-white/10 text-xs uppercase tracking-wider font-semibold transition-all duration-300 group font-sans"
-                  >
-                    <CustomLinkedin className="w-4 h-4 text-luxury-gold" />
-                    <span>Architecture Deep Dive</span>
+                    <span>Live Demo</span>
                     <ArrowUpRight className="w-4 h-4 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
                   </a>
                   <a 
@@ -1046,6 +1036,7 @@ export const PortfolioSections: React.FC = () => {
                     rel="noopener noreferrer" 
                     className="inline-flex items-center space-x-2 px-5 py-3 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-white border border-white/10 text-xs uppercase tracking-wider font-semibold transition-all duration-300 group font-sans"
                   >
+                    <CustomGithub className="w-4 h-4" />
                     <span>Inspect on GitHub</span>
                     <ArrowUpRight className="w-4 h-4 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
                   </a>
