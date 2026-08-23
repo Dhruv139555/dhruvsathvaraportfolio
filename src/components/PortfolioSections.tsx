@@ -954,7 +954,7 @@ export const PortfolioSections: React.FC = () => {
           <div className="flex flex-col space-y-20">
             
             {/* FLAGSHIP PROJECT 1: Dhruva OS (ध्रुव OS) - Universal Polymath Life Operating System */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start pb-16 border-b border-white/5">
+            <div id="dhruva-os" className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start pb-16 border-b border-white/5 scroll-mt-24">
               
               {/* Project Card Text */}
               <motion.div 

@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar';
 import SmoothScroll from './components/SmoothScroll';
 import CinematicCanvas from './components/CinematicCanvas';
 import PortfolioSections from './components/PortfolioSections';
@@ -5,6 +6,7 @@ import PortfolioSections from './components/PortfolioSections';
 function App() {
   return (
     <SmoothScroll>
+      <Navbar />
       <main className="relative w-full overflow-x-hidden bg-[#080808]">
         {/* Fullscreen Cinematic Scroll Hero (Frame sequence canvas) */}
         <section className="relative z-10">
