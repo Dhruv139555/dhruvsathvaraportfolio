@@ -446,8 +446,16 @@ export const PortfolioSections: React.FC = () => {
               B.Tech. Lateral Artificial Intelligence &bull; Ahmedabad, India
             </p>
             
+            {/* Signature Philosophy Quote */}
+            <div className="pt-2 pl-1 flex items-center gap-3">
+              <div className="w-8 h-[1px] bg-luxury-gold/60" />
+              <blockquote className="font-serif italic text-sm md:text-lg text-neutral-200 tracking-wide font-light">
+                &ldquo;<span className="text-luxury-gold">The Engineer</span> Who Can Understand <span className="text-luxury-gold">Psychology</span>&rdquo;
+              </blockquote>
+            </div>
+            
             {/* Socials Link Row */}
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-3 pt-4 pl-1">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-3 pt-3 pl-1">
               <a 
                 href="https://www.linkedin.com/in/dhruv-sathvara-64461b352/" 
                 target="_blank" 
@@ -504,11 +512,11 @@ export const PortfolioSections: React.FC = () => {
             </div>
             
             <h2 className="font-serif text-3xl md:text-5xl font-light tracking-wide leading-tight">
-              Engineering intelligence, <span className="italic text-luxury-gold">systems</span> & polymath mastery.
+              Engineering intelligence, <span className="italic text-luxury-gold">systems</span> & human cognition.
             </h2>
             
             <p className="font-sans text-neutral-400 leading-relaxed font-light text-base">
-              I am an AI architect, software engineer, and data intelligence researcher. From engineering sovereign Life Operating Systems (Dhruva OS) with hands-free neural voice control to training production machine learning architectures and quantitative valuation engines, I focus on building end-to-end systems that bridge artificial intelligence with human potential.
+              Known as <span className="text-luxury-gold font-serif italic">&ldquo;The Engineer Who Can Understand Psychology,&rdquo;</span> I bridge the gap between advanced artificial intelligence architectures and deep human experience. From engineering sovereign Life Operating Systems (Dhruva OS) with hands-free neural voice control to training production machine learning models and quantitative valuation engines, I build end-to-end solutions that elevate human potential.
             </p>
           </motion.div>
 
