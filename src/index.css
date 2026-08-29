@@ -21,10 +21,43 @@
     transition: background-color 0.8s cubic-bezier(0.25, 1, 0.5, 1), color 0.8s cubic-bezier(0.25, 1, 0.5, 1);
   }
 
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+
+  button {
+    color: inherit;
+  }
+
   ::selection {
     background-color: rgba(212, 175, 55, 0.2);
     color: #D4AF37;
   }
+}
+
+/* Luxury Interactive Button Styles */
+.btn-gold {
+  background-color: #D4AF37;
+  color: #000000 !important;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.25);
+}
+
+.btn-gold:hover {
+  background-color: #edd88b !important;
+  color: #000000 !important;
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn-gold * {
+  color: #000000 !important;
 }
 
 /* Custom Scrollbar */

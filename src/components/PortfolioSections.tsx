@@ -429,26 +429,8 @@ export const PortfolioSections: React.FC = () => {
       className="relative w-full overflow-hidden select-none z-30 bg-[#080808] text-[#F9F9F6]"
     >
       
-      {/* HEADER NAV */}
-      <nav className="fixed top-0 left-0 right-0 z-50 py-6 px-6 md:px-20 bg-black/40 backdrop-blur-md border-b border-white/5">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <a href="#" className="font-serif text-sm md:text-lg font-light tracking-[0.2em] uppercase text-white hover:text-luxury-gold transition-colors duration-300">
-            DHRUV SATHVARA
-          </a>
-          <div className="hidden md:flex items-center space-x-8 text-xs tracking-wider uppercase font-light text-neutral-400">
-            <a href="#about" className="hover:text-luxury-gold transition-colors duration-200">About</a>
-            <a href="#experience" className="hover:text-luxury-gold transition-colors duration-200">Experience</a>
-            <a href="#education" className="hover:text-luxury-gold transition-colors duration-200">Education</a>
-            <a href="#projects" className="hover:text-luxury-gold transition-colors duration-200">Projects</a>
-            <a href="#publications" className="hover:text-luxury-gold transition-colors duration-200">Publications</a>
-            <a href="#certifications" className="hover:text-luxury-gold transition-colors duration-200">Certifications</a>
-            <a href="#contact" className="hover:text-luxury-gold transition-colors duration-200">Contact</a>
-          </div>
-        </div>
-      </nav>
-
       {/* OVERLAY INTRO SECTION */}
-      <section className="relative min-h-[50vh] flex flex-col justify-end px-6 md:px-20 pb-16 pt-32 bg-gradient-to-b from-transparent to-[#080808] z-10">
+      <section className="relative min-h-[45vh] flex flex-col justify-end px-6 md:px-20 pb-16 pt-20 bg-gradient-to-b from-transparent to-[#080808] z-10">
         <div className="max-w-7xl mx-auto w-full">
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
@@ -508,7 +490,7 @@ export const PortfolioSections: React.FC = () => {
       </section>
 
       {/* 1. ABOUT ME & PROFESSIONAL SUMMARY */}
-      <section id="about" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#0a0a0c]">
+      <section id="about" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#0a0a0c] scroll-mt-20">
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           
           {/* Column A: Summary details */}
@@ -592,7 +574,7 @@ export const PortfolioSections: React.FC = () => {
       </section>
 
       {/* 2. PROFESSIONAL EXPERIENCE */}
-      <section id="experience" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#080808]">
+      <section id="experience" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#080808] scroll-mt-20">
         <div className="max-w-7xl mx-auto w-full">
           
           <motion.div 
@@ -875,7 +857,7 @@ export const PortfolioSections: React.FC = () => {
       </section>
 
       {/* 3. EDUCATION */}
-      <section id="education" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#0a0a0c]">
+      <section id="education" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#0a0a0c] scroll-mt-20">
         <div className="max-w-7xl mx-auto w-full">
           
           <motion.div 
@@ -939,7 +921,7 @@ export const PortfolioSections: React.FC = () => {
       </section>
 
       {/* 4. PROJECTS & INTERACTIVE MODEL ARENA */}
-      <section id="projects" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#080808]">
+      <section id="projects" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#080808] scroll-mt-20">
         <div className="max-w-7xl mx-auto w-full">
           
           <motion.div 
@@ -1156,7 +1138,7 @@ export const PortfolioSections: React.FC = () => {
             </div>
 
             {/* PROJECT 2: Employee Management System + MODEL ARENA */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            <div id="terminal" className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start pt-12 border-t border-white/5 scroll-mt-28">
               
               {/* Project Card Text */}
               <motion.div 
@@ -1533,7 +1515,7 @@ export const PortfolioSections: React.FC = () => {
       </section>
 
       {/* 5. PUBLICATIONS & RESEARCH */}
-      <section id="publications" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#0a0a0c]">
+      <section id="publications" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#0a0a0c] scroll-mt-20">
         <div className="max-w-7xl mx-auto w-full">
           
           <motion.div 
@@ -1584,7 +1566,7 @@ export const PortfolioSections: React.FC = () => {
       </section>
 
       {/* 6. CERTIFICATIONS & EXTRA DETAILS */}
-      <section id="certifications" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#080808]">
+      <section id="skills" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#080808] scroll-mt-20">
         <div className="max-w-7xl mx-auto w-full">
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
@@ -1671,7 +1653,7 @@ export const PortfolioSections: React.FC = () => {
       </section>
 
       {/* 7. CONTACT SECTION */}
-      <section id="contact" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#0a0a0c]">
+      <section id="contact" className="relative py-24 px-6 md:px-20 border-t border-white/5 bg-[#0a0a0c] scroll-mt-20">
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16">
           
           {/* Column A: Statement */}
